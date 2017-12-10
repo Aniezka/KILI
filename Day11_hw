@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ANNOTATION_DOCUMENT AUTHOR="" DATE="2017-12-10T12:08:44+03:00" FORMAT="3.0" VERSION="3.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.mpi.nl/tools/elan/EAFv3.0.xsd">
+    <HEADER MEDIA_FILE="" TIME_UNITS="milliseconds">
+        <MEDIA_DESCRIPTOR MEDIA_URL="file:///C:/Users/Anna/Desktop/Сказка.avi" MIME_TYPE="video/*" RELATIVE_MEDIA_URL="./Сказка.avi"/>
+        <PROPERTY NAME="URN">urn:nl-mpi-tools-elan-eaf:65f888ce-9a9e-4e6c-85e0-5dd9b665047d</PROPERTY>
+        <PROPERTY NAME="lastUsedAnnotationId">1</PROPERTY>
+    </HEADER>
+    <TIME_ORDER>
+        <TIME_SLOT TIME_SLOT_ID="ts1" TIME_VALUE="0"/>
+        <TIME_SLOT TIME_SLOT_ID="ts2" TIME_VALUE="70669"/>
+    </TIME_ORDER>
+    <TIER LINGUISTIC_TYPE_REF="default-lt" TIER_ID="default"/>
+    <TIER LINGUISTIC_TYPE_REF="paragraph" TIER_ID="﻿R@text">
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a1" TIME_SLOT_REF1="ts1" TIME_SLOT_REF2="ts2">
+                <ANNOTATION_VALUE>Меня зовут Римма Николаевна. И вот я кончила Костромское медицинское училище, вот, и, потом мы эм переехали сюда в Беларусью с мужем. И вот, значит, я здесь, в Беларусью, Мозырь, кончила два курса пединститута и э пошла на работу в школу-интернат для умственно-отсталых детей. Там я ээ иногда подрабатывала педагогом, ну, в тех случаях, там, когда, эмм учительница то заболеет, то, значит, картошку копать. И вот мне вспоминается, я с удовольствием вспоминаю один случай. Вот я, меня директор попросила, сказала: «Римма Николаевна, давайте сегодня Вы проведёте в первом классе урок», потому что, ээ не помню, или заболела учительница, или же на картошку отправили в колхоз, раньше ж всегда отправляли. И вот я зашла в класс, значит, там были в основном олигофрены, дети ээ с задержкой психического развития, и двух детей цыганки директор взяла, там её попросили, потому что цыганка ээ, в тюрьму её посадили за воровство, и поэтому в наш дом-интернат. Они здоровые дети такие, и психически здоровы были, и вот, а одного ч.. мальчика в первый класс, значит, посадили, старшая где-то класс седьмой-восьмой. Вот я провожу урок. Но какой. Конечно э, планы писать я не собиралась, и что, я попросила раньше директора: «Вы знаете, я их попрошу рассказать сказки, какие они знают». Вот они мне рассказывали сказки всё, а Руслан, как звали до сих пор я его помню, значит, вот этого цы.. сына цыганки той. И он всё время тянет и тянет руку, тянет и тянет. Говорю: «Руслан, подожди, вот сейчас вот эти дети всё расскажут, а потом ты». Но всё равно, он, ему, значит, это, вот ему надо расс.. ну всё Руслан, выходи, дети выходили к доске и рассказывали. Вот Руслан рассказывает: «А я расскажу про курочку Рябу». –«Хорошо, а кто тебе расс..э..рассказывает ту курочку Рябу?» –«И бабушка, и, и папа рассказывал». –«Ну хорошо, рассказывай». –«Жили-были..– начал рассказывать, – дед и баба. У них была курочка Ряба. Снесла курочка яичко – оно оказалось золотое. Начали, это, дед бил-бил – не разбил, баба била-била – не разбила. А какая-то маленькая мышь бежала, хвостом махнула, яичко упало и разбилось. Вот и начали реветь: дед ревел-ревел, баба начала реветь. Ревели-ревели. Ну что. А курочка Ряба сказала: «Да не плачьте вы, не плачьте. Я снесу вам яичко, не золотое, а простое». А вот дальше он рассказывает, делает вывод: «Вот я до сих пор не могу понять, почему яйцо это разбилось. Не могу понять, ведь оно золотое было». Вот так, такая эта история была, я всегда вспоминаю её и думаю: «Всё-таки какая логика была у этого ребёнка».</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+    </TIER>
+    <LINGUISTIC_TYPE GRAPHIC_REFERENCES="false" LINGUISTIC_TYPE_ID="default-lt" TIME_ALIGNABLE="true"/>
+    <LINGUISTIC_TYPE GRAPHIC_REFERENCES="false" LINGUISTIC_TYPE_ID="paragraph" TIME_ALIGNABLE="true"/>
+    <LINGUISTIC_TYPE CONSTRAINTS="Symbolic_Association" GRAPHIC_REFERENCES="false" LINGUISTIC_TYPE_ID="association" TIME_ALIGNABLE="false"/>
+    <LINGUISTIC_TYPE CONSTRAINTS="Symbolic_Subdivision" GRAPHIC_REFERENCES="false" LINGUISTIC_TYPE_ID="subdivision" TIME_ALIGNABLE="false"/>
+    <CONSTRAINT DESCRIPTION="Time subdivision of parent annotation's time interval, no time gaps allowed within this interval" STEREOTYPE="Time_Subdivision"/>
+    <CONSTRAINT DESCRIPTION="Symbolic subdivision of a parent annotation. Annotations refering to the same parent are ordered" STEREOTYPE="Symbolic_Subdivision"/>
+    <CONSTRAINT DESCRIPTION="1-1 association with a parent annotation" STEREOTYPE="Symbolic_Association"/>
+    <CONSTRAINT DESCRIPTION="Time alignable annotations within the parent annotation's time interval, gaps are allowed" STEREOTYPE="Included_In"/>
+</ANNOTATION_DOCUMENT>
